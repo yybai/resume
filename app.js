@@ -9,14 +9,14 @@ const http = require('http');
 const session = require('express-session')
 var userList =[];
 
-// view engine setup
+
 app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
-//middleware
-app.use(logger('dev')); // log requests in server console
-app.use(bodyParser.json()); // parse client request data to json format.     req,res
+
+app.use(logger('dev'));
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
@@ -25,7 +25,7 @@ app.use('/scripts', express.static(`${__dirname}/node_modules/`));
 
 
 
-//router setup
+
 const index = require('./routes/index');
 
 
