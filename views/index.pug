@@ -1,0 +1,240 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+		meta(name='description', content='')
+		meta(name='author', content='')
+		title WHOS LEO?
+		link(href='vendor/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+		link(href='vendor/font-awesome/css/font-awesome.min.css', rel='stylesheet', type='text/css')
+		link(href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800', rel='stylesheet', type='text/css')
+		link(href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic', rel='stylesheet', type='text/css')
+		link(href='vendor/magnific-popup/magnific-popup.css', rel='stylesheet')
+		link(href='/css/creative.min.css', rel='stylesheet')
+	body#page-top
+		nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
+			.container
+				a.navbar-brand.js-scroll-trigger(href='#page-top') LETS START AGAIN
+				button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+					span.navbar-toggler-icon
+				#navbarResponsive.collapse.navbar-collapse
+					ul.navbar-nav.ml-auto
+						li.nav-item
+							a.nav-link.js-scroll-trigger(href='#about') WHO AM I 
+						li.nav-item
+							a.nav-link.js-scroll-trigger(href='#services')  WHAT I CAN DO 
+						li.nav-item
+							a.nav-link.js-scroll-trigger(href='#portfolio')  WHAT I HAVE DONE 
+						li.nav-item
+							a.nav-link.js-scroll-trigger(href='#contact')  SAY HI TO ME 
+		header.masthead.text-center.text-white.d-flex
+			.container.my-auto
+				.row
+					.col-lg-10.mx-auto
+						h1.text-uppercase
+							strong WELCOME TO MY PERSONAL PORTFOLIO
+						hr
+					.col-lg-8.mx-auto
+						p.text-faded.mb-5(style='cursor:default;')
+							| My name is YITAO BAI (LEO). A computer science student graduated from SFU Vancouver. Mainly focus on software development. Web and Mobile Apps are my primary interests.
+						hr
+						p.text-faded I AM . . .
+						div(style='text-align:-webkit-auto')
+							table
+								ul.text-faded
+									li ENJOY CODING
+									li WORKING HARD STUDYING
+									li SELF LEARNER
+									li PROBLEM SOLVING
+									li BOTH GROUP OR INDIVIDUAL CODER
+									li ...
+									li HAPPY CODING!
+						a.btn.btn-primary.btn-xl.js-scroll-trigger(href='#about', style='clear:both;') Find Out More
+		section#about.bg-primary
+			.container
+				.row
+					.col-lg-8.mx-auto.text-center
+						h2.section-heading.text-white Something you may like
+						hr.light.my-4
+						p.text-faded.mb-4 As a computer science student, I am able to ...
+						div(style='text-align:-webkit-auto')
+							table
+								ul.text-faded
+									li
+										| Develop web apps. I am able to work on both Frontend or Backend. For Frontend development, I use HTML, CSS, Javascript, jQuery, angularJS and some other JS libraries. For Backend, I use express NodeJS Framwork. Both of this portfolio site and my project are using express-nodeJS.
+									br
+									li
+										| Do some basic design. Adobe Illustrator is the tool I use to draw graph. Eventhough I didn't attend any professional design classes, but design is my personal interest. I always pay attention to some successful logo or UI designs. That did give me a lot art insparation.
+									br
+									li
+										| Switch between both Windows and Linux systems. Used to add a customized system call which can track information about current running process to Linux Kernal in Virtual Machine as a university course project.
+									br
+									li Working on my own to learn mobile app development, using react-native. 
+									br
+									li
+										| Have knowledge on both SQL database and MongoDB nonSQL database. Familiar with writing queries to track SQL database information. Such as 'SELECT' (NAME) 'FROM' (LOCATION) 'WHERE' (CONDITION). My project is using mongoDB to store user data.
+									br
+									li
+										| Have knowledge on UI design. I understand how difficult to get the real need from clients. Therefore, something like 'user test', 'protocol' and 'event test' are necessary.
+							//
+								<div class="vendor-icons github">
+								<img alt="Github logo" src="dist/32x32/github.png" width="32" height="32">
+								</div>
+						a.btn.btn-light.btn-xl.js-scroll-trigger(href='#services') MORE SPECIFICALLY ...
+		section#services
+			.container
+				.row
+					.col-lg-12.text-center
+						h2.section-heading TECHNICS THAT I USE
+						hr.my-4
+			.container
+				.row
+					.col-lg-3.col-md-6.text-center
+						.service-box.mt-5.mx-auto
+							// <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+							a(href='https://en.wikipedia.org/wiki/HTML5', target='_BLANK')
+								img(alt='HTML5 logo', src='dist/128x128/html5.png')
+							h3.mb-3 HTML5
+							p.text-muted.mb-0
+								| Both of this resume page and project are using HTML5. But I also use Jade as a second choice.
+					.col-lg-3.col-md-6.text-center
+						.service-box.mt-5.mx-auto
+							a(href='https://nodejs.org/en/', target='_BLANK')
+								img(alt='NodeJS logo', src='dist/128x128/nodejs.png')
+							h3.mb-3 Node
+							p.text-muted.mb-0
+								| The Backend framwork I use on both of this resume and my project. Express+Node combined with ejs to use HTML page.
+					.col-lg-3.col-md-6.text-center
+						.service-box.mt-5.mx-auto
+							a(href='https://www.w3schools.com/css/', target='_BLANK')
+								img(alt='NodeJS logo', src='dist/128x128/css3.png')
+							h3.mb-3 CSS3
+							p.text-muted.mb-0 All projects are rendered by CSS3.
+					.col-lg-3.col-md-6.text-center
+						.service-box.mt-5.mx-auto
+							a(href='https://www.python.org/', target='_BLANK')
+								img(alt='NodeJS logo', src='dist/128x128/python.png')
+							h3.mb-3 Python
+							p.text-muted.mb-0
+								| Used to code using python in university. Wrote a simple AI program: it 'remembers' some statements such as A is true, if A is true then B is true. If I enter B, then it tells me true.
+					.col-lg-3.col-md-6.text-center
+						.service-box.mt-5.mx-auto
+							a(href='https://www.npmjs.com/', target='_BLANK')
+								img(alt='npm logo', src='dist/128x128/npm.png')
+							h3.mb-3 NPM
+							p.text-muted.mb-0 Node package manager, most libraries are stored by using npm install ***.
+					.col-lg-3.col-md-6.text-center
+						.service-box.mt-5.mx-auto
+							a(href='https://docs.mongodb.com/', target='_BLANK')
+								img(alt='mongoDB logo', src='dist/128x128/mongodb.png')
+							h3.mb-3 MongoDB
+							p.text-muted.mb-0
+								| A nonSQL documentation style database. I use it in my project to store user data.
+					.col-lg-3.col-md-6.text-center
+						.service-box.mt-5.mx-auto
+							a(href='https://jquery.com/', target='_BLANK')
+								img(alt='jquery logo', src='dist/128x128/jquery.png')
+							h3.mb-3 jQuery
+							p.text-muted.mb-0
+								| Using jQuery to connect HTML element with JavaScript. Using ajax to connect to api, using GET, POST, DELETE, PULL to manage my data.
+					.col-lg-3.col-md-6.text-center
+						.service-box.mt-5.mx-auto
+							a(href='https://www.adobe.com/products/illustrator.html', target='_BLANK')
+								img(alt='AI logo', src='dist/128x128/ai.png', style='width:128px;')
+							h3.mb-3 Adobe Illustrator
+							p.text-muted.mb-0 Use AI to draw graph, logo etc.
+				.col-lg-3.col-md-6.text-center
+					.service-box.mt-5.mx-auto
+						img(alt='AI logo', src='dist/128x128/more.png', style='width:128px;')
+						h3.mb-3
+							b MORE ON COMMING...
+						p.text-muted.mb-0 Such as Angularjs, React, React-native ... NEVER STOP LEARNING!
+		section#portfolio.p-0
+			.container-fluid.p-0
+				.row.no-gutters.popup-gallery
+					.col-lg-4.col-sm-6
+						a.portfolio-box(href='img/portfolio/fullsize/1.jpg')
+							img.img-fluid(src='img/portfolio/thumbnails/1.jpg', alt='')
+							.portfolio-box-caption
+								.portfolio-box-caption-content
+									.project-category.text-faded
+										| Category
+									.project-name
+										| Project Name
+					.col-lg-4.col-sm-6
+						a.portfolio-box(href='img/portfolio/fullsize/2.jpg')
+							img.img-fluid(src='img/portfolio/thumbnails/2.jpg', alt='')
+							.portfolio-box-caption
+								.portfolio-box-caption-content
+									.project-category.text-faded
+										| Category
+									.project-name
+										| Project Name
+					.col-lg-4.col-sm-6
+						a.portfolio-box(href='img/portfolio/fullsize/3.jpg')
+							img.img-fluid(src='img/portfolio/thumbnails/3.jpg', alt='')
+							.portfolio-box-caption
+								.portfolio-box-caption-content
+									.project-category.text-faded
+										| Category
+									.project-name
+										| Project Name
+					.col-lg-4.col-sm-6
+						a.portfolio-box(href='img/portfolio/fullsize/4.jpg')
+							img.img-fluid(src='img/portfolio/thumbnails/4.jpg', alt='')
+							.portfolio-box-caption
+								.portfolio-box-caption-content
+									.project-category.text-faded
+										| Category
+									.project-name
+										| Project Name
+					.col-lg-4.col-sm-6
+						a.portfolio-box(href='img/portfolio/fullsize/5.jpg')
+							img.img-fluid(src='img/portfolio/thumbnails/5.jpg', alt='')
+							.portfolio-box-caption
+								.portfolio-box-caption-content
+									.project-category.text-faded
+										| Category
+									.project-name
+										| Project Name
+					.col-lg-4.col-sm-6
+						a.portfolio-box(href='img/portfolio/fullsize/6.jpg')
+							img.img-fluid(src='img/portfolio/thumbnails/6.jpg', alt='')
+							.portfolio-box-caption
+								.portfolio-box-caption-content
+									.project-category.text-faded
+										| Category
+									.project-name
+										| Project Name
+		section.bg-dark.text-white
+			.container.text-center
+				h2.mb-4 Thanks for reviewing my resume!, if you still confused, you can ...
+				a.btn.btn-light.btn-xl.sr-button.js-scroll-trigger(href='#page-top') BACK TO THE TOP
+		section#contact
+			.container
+				.row
+					.col-lg-8.mx-auto.text-center
+						h2.section-heading
+							b Or Get In Touch With Me!
+						hr.my-4
+						p.mb-5
+							| Ready to start your next project with me? That's great! Give me a call or send me an email!
+				.row
+					.col-lg-4.ml-auto.text-center
+						i.fa.fa-phone.fa-3x.mb-3.sr-contact
+						p 604-518-4628
+					.col-lg-4.mr-auto.text-center
+						i.fa.fa-envelope-o.fa-3x.mb-3.sr-contact
+						p
+							a(href='mailto:leobai9188@gmail.com') leobai9188@gmail.com
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+		// Bootstrap core JavaScript
+		// <script src="vendor/jquery/jquery.min.js"></script>
+		script(src='vendor/bootstrap/js/bootstrap.bundle.min.js')
+		// Plugin JavaScript
+		script(src='vendor/jquery-easing/jquery.easing.min.js')
+		script(src='vendor/scrollreveal/scrollreveal.min.js')
+		script(src='vendor/magnific-popup/jquery.magnific-popup.min.js')
+		// Custom scripts for this template
+		script(src='/js/creative.min.js')

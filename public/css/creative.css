@@ -29,6 +29,17 @@ a:hover {
   color: #f05f40;
 }
 
+
+.techs {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.techs:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+
 h1,
 h2,
 h3,
@@ -169,7 +180,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header1.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
